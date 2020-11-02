@@ -1,4 +1,4 @@
-18438276844580705
+18478335651055705
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74312,6 +74312,55 @@ HC-05_SMC
 34
 34
 SOMOS
+JST_B2B-ZR-SM4-TF
+
+
+0
+4
+4
+SOMOS
+JST_B2B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+4
+4
+SOMOS
+JST_B3B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+5
+5
+SOMOS
+JST_B4B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+6
+6
+SOMOS
+JST_B5B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+7
+7
+SOMOS
+JST_B6B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+8
+8
+SOMOS
+JST_B8B-ZR-SM4-TFT(LF)(SN)
+
+
+0
+10
+10
+SOMOS
 JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
 JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
@@ -74319,12 +74368,54 @@ connector JST PH top entry
 4
 3
 SOMOS
+JST_S2B-ZR-SM4A-TF
+
+
+0
+4
+4
+SOMOS
 JST_S3B-PH-SM4-TB
 
 
 0
 5
 5
+SOMOS
+JST_S3B-ZR-SM4A-TF
+
+
+0
+5
+5
+SOMOS
+JST_S4B-ZR-SM4A-TF(LF)(SN)
+
+
+0
+6
+6
+SOMOS
+JST_S5B-ZR-SM4A-TF
+
+
+0
+7
+7
+SOMOS
+JST_S6B-ZR-SM4A-TF(LF)(SN)
+
+
+0
+8
+8
+SOMOS
+JST_S8B-ZR-SM4A-TF(LF)(SN)
+
+
+0
+10
+10
 SOMOS
 JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
 JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
@@ -74354,9 +74445,37 @@ connector JST PH top entry
 8
 7
 SOMOS
+Jack_RGB_LED_Common_Anode
+
+
+0
+4
+4
+SOMOS
+KSU213WLFG
+
+
+0
+4
+4
+SOMOS
 LED_0603_1608Metric_Castellated
 LED SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED castellated
+0
+2
+2
+SOMOS
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+SOMOS
+LED_D5.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
 0
 2
 2
@@ -74374,6 +74493,13 @@ MIMAS_mountingholes
 0
 86
 82
+SOMOS
+Microchip_RN4871
+Microchip RN4871 footprint
+RN4871 BLE
+0
+16
+16
 SOMOS
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -74403,12 +74529,26 @@ Through hole pin header THT 1x08 2.54mm single row
 8
 8
 SOMOS
+ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+SOMOS
 QFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm_ThermalVias
 QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
 23
 17
+SOMOS
+RGB_LED
+
+
+0
+4
+4
 SOMOS
 RHD2132_QFN56
 
@@ -74430,6 +74570,20 @@ RN4871
 0
 16
 16
+SOMOS
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+SOMOS
+R_0603bis
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
 SOMOS
 R_0805_2012Metric
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -74458,6 +74612,34 @@ Connector
 0
 8
 8
+SOMOS
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+SOMOS
+SOMOS_ELECTRODE
+
+
+0
+7
+1
+SOMOS
+SOMOS_ELECTRODE_2
+
+
+0
+5
+1
+SOMOS
+SOMOS_LOGO
+
+
+0
+0
+0
 SOMOS
 SOT-23
 SOT-23, Standard
@@ -74528,13 +74710,6 @@ VEMD5510CF
 0
 4
 2
-SOMOS
-small_konikulogo
-
-
-0
-0
-0
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
