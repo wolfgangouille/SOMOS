@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SHIELD_MIMAS_TFT_BT_POWERSUPPLY-eagle-import)(type Legacy)(uri ${KIPRJMOD}/SHIELD_MIMAS_TFT_BT_POWERSUPPLY-eagle-import.lib)(options "")(descr ""))
+)

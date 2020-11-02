@@ -1,0 +1,14 @@
+Update footprint "U3" (from "SOMOS:SOMOS_ELECTRODE") to "SOMOS:SOMOS_ELECTRODE": OK
+Update footprint "U1" (from "SOMOS:SOMOS_ELECTRODE") to "SOMOS:SOMOS_ELECTRODE": OK
+Update footprint "M1" (from "SOMOS:RHD2216_QFN56") to "SOMOS:RHD2216_QFN56": OK
+Update footprint "J7" (from "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical": OK
+Update footprint "J6" (from "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical": OK
+Update footprint "J5" (from "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical": OK
+Update footprint "J4" (from "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical": OK
+Update footprint "J3" (from "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical": OK
+Update footprint "J2" (from "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical") to "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical": OK
+Update footprint "J1" (from "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal") to "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal": OK
+Update footprint "C3" (from "Capacitor_SMD:C_0603_1608Metric") to "Capacitor_SMD:C_0603_1608Metric": OK
+Update footprint "C2" (from "Capacitor_SMD:C_0603_1608Metric") to "Capacitor_SMD:C_0603_1608Metric": OK
+Update footprint "C1" (from "Capacitor_SMD:C_0603_1608Metric") to "Capacitor_SMD:C_0603_1608Metric": OK
+Update footprint "U2" (from "SOMOS:SOMOS_ELECTRODE") to "SOMOS:SOMOS_ELECTRODE": OK

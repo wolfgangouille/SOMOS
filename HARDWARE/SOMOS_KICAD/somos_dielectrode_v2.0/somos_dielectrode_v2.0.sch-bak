@@ -1,0 +1,81 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Somos_Library:ElectrodePad U2
+U 1 1 5E20931B
+P 5150 2350
+F 0 "U2" H 5208 2309 50  0000 L CNN
+F 1 "ElectrodePad" H 5208 2218 50  0000 L CNN
+F 2 "SOMOS:SOMOS_ELECTRODE_2" H 5150 2350 50  0001 C CNN
+F 3 "" H 5150 2350 50  0001 C CNN
+	1    5150 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Somos_Library:ElectrodePad U3
+U 1 1 5E298AB1
+P 5650 2750
+F 0 "U3" H 5708 2709 50  0000 L CNN
+F 1 "ElectrodePad" H 5708 2618 50  0000 L CNN
+F 2 "SOMOS:SOMOS_ELECTRODE_2" H 5650 2750 50  0001 C CNN
+F 3 "" H 5650 2750 50  0001 C CNN
+	1    5650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5E82C729
+P 5100 3400
+F 0 "J1" V 5254 3112 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 5163 3112 50  0000 R CNN
+F 2 "SOMOS:JST_SH_SM04B-SRSS-TB_1x04-DUAL" H 5100 3400 50  0001 C CNN
+F 3 "~" H 5100 3400 50  0001 C CNN
+	1    5100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2750 5150 2750
+Wire Wire Line
+	5150 2750 5150 2350
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 2750 5200 2750
+Wire Wire Line
+	5300 2750 5650 2750
+Wire Wire Line
+	5000 2750 4400 2750
+$Comp
+L Somos_Library:ElectrodePad U1
+U 1 1 5E1F0769
+P 4400 2750
+F 0 "U1" H 4312 2616 50  0000 R CNN
+F 1 "ElectrodePad" H 4312 2707 50  0000 R CNN
+F 2 "SOMOS:SOMOS_ELECTRODE_2" H 4400 2750 50  0001 C CNN
+F 3 "" H 4400 2750 50  0001 C CNN
+	1    4400 2750
+	0    1    1    0   
+$EndComp
+Text GLabel 5150 2500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5000 2750 5000 3200
+Wire Wire Line
+	5100 2750 5100 3200
+Wire Wire Line
+	5200 2750 5200 3200
+Wire Wire Line
+	5300 2750 5300 3200
+$EndSCHEMATC

@@ -1,0 +1,383 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5E1A5612
+P 4000 5050
+F 0 "C1" V 3748 5050 50  0000 C CNN
+F 1 "100 nF" V 3839 5050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 4900 50  0001 C CNN
+F 3 "~" H 4000 5050 50  0001 C CNN
+	1    4000 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 6150 3500 5750
+Wire Wire Line
+	4400 6150 4400 5750
+$Comp
+L Device:C C2
+U 1 1 5E1AF191
+P 5700 5400
+F 0 "C2" H 5585 5354 50  0000 R CNN
+F 1 "100 nF" H 5585 5445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5738 5250 50  0001 C CNN
+F 3 "~" H 5700 5400 50  0001 C CNN
+	1    5700 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4950 5700 4950
+Wire Wire Line
+	5700 4950 5700 5250
+Wire Wire Line
+	5700 5550 5700 5600
+Wire Wire Line
+	5700 5600 5300 5600
+Wire Wire Line
+	5200 5600 5200 5150
+$Comp
+L Device:C C3
+U 1 1 5E1AFF05
+P 4900 6000
+F 0 "C3" V 5152 6000 50  0000 C CNN
+F 1 "10 nF" V 5061 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4938 5850 50  0001 C CNN
+F 3 "~" H 4900 6000 50  0001 C CNN
+	1    4900 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 5750 4600 6000
+Wire Wire Line
+	4600 6000 4750 6000
+Wire Wire Line
+	5050 6000 5200 6000
+Wire Wire Line
+	5200 6000 5200 5600
+Connection ~ 5200 5600
+Text GLabel 2350 4750 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2700 4750 2550 4750
+Wire Wire Line
+	2700 4850 2550 4850
+Wire Wire Line
+	2550 4850 2550 4750
+Connection ~ 2550 4750
+Wire Wire Line
+	2550 4750 2350 4750
+Wire Wire Line
+	2700 4950 2550 4950
+Wire Wire Line
+	2550 4950 2550 4850
+Connection ~ 2550 4850
+Text GLabel 2350 5050 0    50   Input ~ 0
+VDD
+Wire Wire Line
+	2350 5050 2700 5050
+Text GLabel 3500 6300 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3500 6150 3500 6300
+Connection ~ 3500 6150
+Text GLabel 5200 6100 3    50   Input ~ 0
+GND
+Text GLabel 4400 6300 3    50   Input ~ 0
+VDD
+Text GLabel 5900 4950 2    50   Input ~ 0
+VDD
+Wire Wire Line
+	5900 4950 5700 4950
+Connection ~ 5700 4950
+Wire Wire Line
+	4400 6300 4400 6150
+Connection ~ 4400 6150
+Wire Wire Line
+	5200 6100 5200 6000
+Connection ~ 5200 6000
+Wire Wire Line
+	4400 6150 4550 6150
+Wire Wire Line
+	3350 6150 3500 6150
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5E1BE71B
+P 3950 7550
+F 0 "J1" V 3796 7798 50  0000 L CNN
+F 1 "Conn_01x06_Female" V 3887 7798 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 3950 7550 50  0001 C CNN
+F 3 "~" H 3950 7550 50  0001 C CNN
+	1    3950 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 6150 3350 7350
+Wire Wire Line
+	3350 7350 3650 7350
+Wire Wire Line
+	4550 6150 4550 7350
+Wire Wire Line
+	4550 7350 4150 7350
+Wire Wire Line
+	3700 5750 3700 7350
+Wire Wire Line
+	3700 7350 3750 7350
+Wire Wire Line
+	3850 7350 3850 5850
+Wire Wire Line
+	3850 5850 3900 5850
+Wire Wire Line
+	3900 5850 3900 5750
+Wire Wire Line
+	4100 5750 4100 6050
+Wire Wire Line
+	4100 6050 3950 6050
+Wire Wire Line
+	3950 6050 3950 7350
+Wire Wire Line
+	4050 7350 4050 6450
+Wire Wire Line
+	4050 6450 4300 6450
+Wire Wire Line
+	4300 6450 4300 5750
+Wire Wire Line
+	2700 4650 1100 4650
+Wire Wire Line
+	2700 4550 1100 4550
+Wire Wire Line
+	2700 4450 1100 4450
+Wire Wire Line
+	2700 4350 1100 4350
+Wire Wire Line
+	2700 4250 1100 4250
+Wire Wire Line
+	2700 4150 1100 4150
+Wire Wire Line
+	2700 4050 1100 4050
+Wire Wire Line
+	2700 3950 1100 3950
+Wire Wire Line
+	2700 3850 2700 3350
+Wire Wire Line
+	3350 3250 1050 3250
+Wire Wire Line
+	3450 3250 3450 3150
+Wire Wire Line
+	3450 3150 1050 3150
+Wire Wire Line
+	3550 3250 3550 3050
+Wire Wire Line
+	3550 3050 1050 3050
+Wire Wire Line
+	3650 3250 3650 2950
+Wire Wire Line
+	3650 2950 1050 2950
+Wire Wire Line
+	3750 3250 3750 2850
+Wire Wire Line
+	3750 2850 1050 2850
+Wire Wire Line
+	3850 3250 3850 2750
+Wire Wire Line
+	3850 2750 2200 2750
+Wire Wire Line
+	3950 3250 3950 2650
+Wire Wire Line
+	3950 2650 2900 2650
+Wire Wire Line
+	4650 3250 7000 3250
+Wire Wire Line
+	5200 3850 5200 3350
+Wire Wire Line
+	5200 3350 7000 3350
+Wire Wire Line
+	4550 3250 4550 3150
+Wire Wire Line
+	4550 3150 7000 3150
+Wire Wire Line
+	4450 3250 4450 3050
+Wire Wire Line
+	4450 3050 7000 3050
+Wire Wire Line
+	4350 3250 4350 2950
+Wire Wire Line
+	4350 2950 7000 2950
+Wire Wire Line
+	4250 3250 4250 2850
+Wire Wire Line
+	4250 2850 7000 2850
+Wire Wire Line
+	4150 3250 4150 2750
+Wire Wire Line
+	4150 2750 7000 2750
+Wire Wire Line
+	4050 3250 4050 2650
+Wire Wire Line
+	4050 2650 7000 2650
+Wire Wire Line
+	5200 3950 7050 3950
+Wire Wire Line
+	5200 4050 7050 4050
+Wire Wire Line
+	5200 4150 7050 4150
+Wire Wire Line
+	5200 4250 7050 4250
+Wire Wire Line
+	5200 4350 7050 4350
+Wire Wire Line
+	5200 4450 7050 4450
+Wire Wire Line
+	5200 4550 7050 4550
+Wire Wire Line
+	5200 4650 7050 4650
+Wire Wire Line
+	5200 4850 6150 4850
+$Comp
+L Connector:Conn_01x08_Female J4
+U 1 1 5E21673F
+P 900 4350
+F 0 "J4" H 792 3725 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 792 3816 50  0000 C CNN
+F 2 "SOMOS:PinHeader_1x08_P2.54mm_Vertical" H 900 4350 50  0001 C CNN
+F 3 "~" H 900 4350 50  0001 C CNN
+	1    900  4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 3350 1050 3350
+$Comp
+L Connector:Conn_01x08_Female J5
+U 1 1 5E2453F8
+P 850 3050
+F 0 "J5" H 742 2425 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 742 2516 50  0000 C CNN
+F 2 "SOMOS:PinHeader_1x08_P2.54mm_Vertical" H 850 3050 50  0001 C CNN
+F 3 "~" H 850 3050 50  0001 C CNN
+	1    850  3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J6
+U 1 1 5E25E5FA
+P 7200 2950
+F 0 "J6" H 7228 2926 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 7228 2835 50  0000 L CNN
+F 2 "SOMOS:PinHeader_1x08_P2.54mm_Vertical" H 7200 2950 50  0001 C CNN
+F 3 "~" H 7200 2950 50  0001 C CNN
+	1    7200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J7
+U 1 1 5E26DDC2
+P 7250 4250
+F 0 "J7" H 7278 4226 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 7278 4135 50  0000 L CNN
+F 2 "SOMOS:PinHeader_1x08_P2.54mm_Vertical" H 7250 4250 50  0001 C CNN
+F 3 "~" H 7250 4250 50  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5750 3400 5850
+Wire Wire Line
+	5200 5050 5300 5050
+Wire Wire Line
+	5300 5050 5300 5600
+Connection ~ 5300 5600
+Wire Wire Line
+	5300 5600 5200 5600
+Wire Wire Line
+	6150 4850 6150 5600
+Wire Wire Line
+	6150 5600 5700 5600
+Connection ~ 5700 5600
+$Comp
+L Somos_Library:RHD2216 M1
+U 1 1 5E1A1FC6
+P 3950 4500
+F 0 "M1" H 3900 4500 60  0000 L CNN
+F 1 "RHD2216" H 3800 4350 60  0000 L CNN
+F 2 "SOMOS:RHD2216_QFN56" H 3950 4500 60  0001 C CNN
+F 3 "" H 3950 4500 60  0000 C CNN
+	1    3950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5750 3500 5050
+Wire Wire Line
+	3500 5050 3850 5050
+Connection ~ 3500 5750
+Wire Wire Line
+	4400 5750 4400 5050
+Wire Wire Line
+	4400 5050 4150 5050
+Connection ~ 4400 5750
+Wire Wire Line
+	3650 4150 3400 4150
+Wire Wire Line
+	3400 4150 3400 4400
+Text GLabel 3400 4400 3    50   Input ~ 0
+GND
+$Comp
+L Somos_Library:ElectrodePad U2
+U 1 1 5E2F9309
+P 2900 2350
+F 0 "U2" H 2812 2216 50  0000 R CNN
+F 1 "ElectrodePad" H 2812 2307 50  0000 R CNN
+F 2 "SOMOS:SOMOS_ELECTRODE" H 2900 2350 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Somos_Library:ElectrodePad U1
+U 1 1 5E2F9B6A
+P 2200 2350
+F 0 "U1" H 2112 2216 50  0000 R CNN
+F 1 "ElectrodePad" H 2112 2307 50  0000 R CNN
+F 2 "SOMOS:SOMOS_ELECTRODE" H 2200 2350 50  0001 C CNN
+F 3 "" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Somos_Library:ElectrodePad U3
+U 1 1 5E2F9D28
+P 3900 2000
+F 0 "U3" H 3958 1959 50  0000 L CNN
+F 1 "ElectrodePad" H 3958 1868 50  0000 L CNN
+F 2 "SOMOS:SOMOS_ELECTRODE" H 3900 2000 50  0001 C CNN
+F 3 "" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 2000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3900 2000 3800 2000
+Wire Wire Line
+	2900 2650 2900 2350
+Connection ~ 2900 2650
+Wire Wire Line
+	2900 2650 1050 2650
+Wire Wire Line
+	2200 2750 2200 2350
+Connection ~ 2200 2750
+Wire Wire Line
+	2200 2750 1050 2750
+$EndSCHEMATC
