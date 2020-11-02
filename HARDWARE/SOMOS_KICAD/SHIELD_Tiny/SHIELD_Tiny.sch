@@ -432,7 +432,7 @@ F 3 "" H 10200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RN4871-V_RM118:RN4871-V_RM118 U4
+L SHIELD_Tiny-rescue:RN4871-V_RM118-RN4871-V_RM118 U4
 U 1 1 5F838F73
 P 3950 7150
 F 0 "U4" H 3950 8017 50  0000 C CNN
@@ -486,7 +486,7 @@ Wire Wire Line
 Text GLabel 2950 6750 0    50   Input ~ 0
 BT_TX
 $Comp
-L somos_sym_lib:MCP112 U6
+L SHIELD_Tiny-rescue:MCP112-somos_sym_lib U6
 U 1 1 5F8B892E
 P 6250 6850
 F 0 "U6" H 6020 6804 50  0000 R CNN
@@ -975,4 +975,15 @@ Text GLabel 5200 5100 2    50   Input ~ 0
 5V
 Text GLabel 5200 5000 2    50   Input ~ 0
 3V
+$Comp
+L RF_Bluetooth:RN4871 U?
+U 1 1 5FA05F74
+P 1700 5750
+F 0 "U?" H 1700 6531 50  0000 C CNN
+F 1 "RN4871" H 1700 6440 50  0000 C CNN
+F 2 "RF_Module:Microchip_RN4871" H 1700 5050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/50002489A.pdf" H 1200 6300 50  0001 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
